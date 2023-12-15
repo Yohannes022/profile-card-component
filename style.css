@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;   
+    color: hsl(229, 23%, 23%);
+    background-color: hsl(185, 75%, 35%); 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/**
+    .circle {
+        position: absolute;
+        padding-bottom: 60%;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    
+    .circle-1 { 
+        background: linear-gradient(50deg,
+                                    hsl(185, 75%, 35%) 35%,
+                                    hsl(185, 76%, 47%));
+        width: 600px;
+        height: 600px;   
+        top: -38%;
+        left: -105%;
+    }
+    
+    .circle-2 {   
+        background: linear-gradient(50deg,
+                                    hsl(185, 76%, 47%),
+                                    hsl(185, 75%, 35%) 85%);
+        width: 500px;
+        height: 550px; 
+        bottom: -35%;
+        right: -82%;
+    }
+*/
+
+.container {
+    background: #fff;
+    text-align: center;
+    width: 290px;
+    height: 355px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin: 0 1rem;
+}
+
+.upper {
+    height: 115px;
+    width: 350px;
+    background: url(/images/bg-pattern-card.svg);
+    background-size: cover;
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: -50px auto -30px auto;
+    border: 5px solid #fff;
+    overflow: hidden;
+}
+
+.image img {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.main {
+    margin-top: 54px;
+    margin-bottom: -75px;
+    height: 250px;
+    line-height: 1.5rem;
+    color: hsl(229, 23%, 23%);
+}
+
+.main .name .age {
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.main .city {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.main .age, 
+.main .city {
+    font-weight: 400;
+    font-size: .9rem;
+    opacity: .6;
+}
+
+.activity-container {
+    width: 100%;
+    height: auto;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid hsl(0, 0%, 59%);
+    margin-top: 1rem;
+    padding: 23px 2rem;
+}
+
+.name, h4 {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.activity-container .act{
+    display: block;
+    font-weight: 400;
+    font-size: .7rem;
+    letter-spacing: 1.3px;
+    opacity: .6;
+
+}
+
+/**
+@media screen and (min-width: 450px){
+    
+    .circle-1 { 
+        top: -30%;
+        left: -80%;
+    }
+    
+    .circle-2 {   
+        bottom: -30%;
+        right: -65%;    
+    }
+}
+
+@media screen and (min-width: 700px){
+    
+    .circle-1 { 
+        width: 650px;
+        width: 650px;
+        top: -30%;
+        left: -40%;
+    }
+    
+    .circle-2 {   
+        width: 650px;
+        bottom: -30%;
+        right: -35%;    
+    }
+}
+
+@media screen and (min-width: 1020px){
+    
+    .circle-1 { 
+        width: 1000px;
+        height: 1000px;
+        top: -70%;
+        left: -30%;
+        transform: translate(-3%, -3%);
+    }
+    
+    .circle-2 {   
+        width: 850px;
+        height: 850px;
+        bottom: -20%;
+        right: -45%;  
+        transform: translate(-40%, 45%);  
+    }
+}
+*/
